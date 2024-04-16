@@ -43,3 +43,4 @@ df
 
 #3. Is the dataframe from part 1 in long or wide format? Write code to convert it
 #into the other.
+#The dataframe is in long format
