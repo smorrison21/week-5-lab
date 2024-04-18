@@ -5,6 +5,7 @@ import pandas as pd
 url_to_csv = 'https://raw.githubusercontent.com/mwaskom/seaborn-data/master/diamonds.csv'
 
 df = pd.read_csv(url_to_csv)
+df
 
 # 1) Create a groupby object using "clarity" and "color" as the keys
 grouped = df.groupby(['clarity', 'color'])
